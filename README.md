@@ -33,3 +33,8 @@ The user will only have so many incorrect attempts before they lose.
 # Future Games
 - Blackjack
 - Rock, Paper, Scissors
+
+# Contributors
+- Jeffrey Norris
+- Charles Marsala
+- Ben Fishel-Brown
