@@ -1,5 +1,5 @@
 import random
-
+# The main function of the program
 def main():
     solved = False
     guess_count = 0
@@ -13,12 +13,14 @@ def main():
         else:
             give_hint(guess, num_to_guess)
 
+# Generates the number for the user to guess
 def get_num():
     high_end = input("What number do you want to guess up to?\n")
     num = str(random.randint(0, int(high_end)))
     print ('\nYou will be guessing a number between 0 - ' + high_end)
     return num
 
+# Checks if the user guessed correctly
 def give_hint(guess, num_to_guess):
     if guess < num_to_guess:
         if int(guess) >= int(num_to_guess) - 10:
