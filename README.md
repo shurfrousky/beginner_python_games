@@ -4,6 +4,7 @@
 - Mad Libs Generator
 - TextBased Adventure Game
 - Hangman
+- Rock, Paper, Scissors
 
 ## Dice Rolling Simulator
 Computer will randomly pick a number between 1-6. It will then ask the Player to choose a number.
@@ -30,9 +31,13 @@ The computer will select a word from a list, and tell the user how many letters.
 The user will guess individual letters, and the computer will respond if correct or not.
 The user will only have so many incorrect attempts before they lose.
 
+## Rock, Paper, Scissors
+The computer will pick between Rock, Paper, Scissors when the game begins.
+The user will then be prompted to enter in Rock, Paper, or Scissors. 
+Rock smashes Scissors, Scissors cuts Paper, Paper covers Rock.
+
 # Future Games
 - Blackjack
-- Rock, Paper, Scissors
 
 # Contributors
 - Jeffrey Norris
