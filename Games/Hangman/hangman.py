@@ -35,5 +35,4 @@ def play():
 		print('Try Again!')
 	
 
-#print(chooseWord())
 play()
