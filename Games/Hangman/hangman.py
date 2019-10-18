@@ -55,7 +55,10 @@ while failures < tries:
     # If the letter isnt in the secret, its wrong
     else:
         print('\nWrong! Try again')
+
+        # Adds hangman ascii art, you can comment this out if not desired
         print(ascii_hangman[failures])
+
         failures += 1
 
     left = tries - failures
